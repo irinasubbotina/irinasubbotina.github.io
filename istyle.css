@@ -1,0 +1,53 @@
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar #f2f2f2*/
+.navbar a {
+    float: left;
+    display: block;
+    color: #FFFACD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #808000;
+    color: #FFF8DC;
+}
+
+/* Add a green background color to the active link */
+.navbar a.active {
+    background-color: #808000;
+    color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+    display: none;
+}
+.photos {
+	text-align: center;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+.photos a {
+	width: 33.3%;
+	display: block;
+	float: left;
+	line-height: 0;
+}
+.photos img {
+	width: 100%;
+	height: auto;
+}
